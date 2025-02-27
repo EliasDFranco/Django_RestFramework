@@ -1,0 +1,17 @@
+POST http://127.0.0.1:8000/api/projects/
+Content-Type: application/json
+{
+    "title": "Método POST",
+    "description": "Practicando el método POST con Django",
+    "technology": "Python & Django"
+}
+
+
+POST http://127.0.0.1:8000/api/projects/
+Content-Type: application/json
+
+{
+    "title": "Segundo Ejemplo",
+    "description": "Practicando el método POST con Django por segunda vez",
+    "technology": "HTML5, CSS3 & JavaScript"
+}
